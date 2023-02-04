@@ -1,0 +1,43 @@
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 120px 0;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.modal-container {
+  background-color: #1c2541;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 30px;
+  transform-origin: top;
+}
+
+.modal-title {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #3a506b;
+}
+
+.modal-title .title {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.modal-title .icon {
+  width: 15px;
+  height: 15px;
+  background: url("close.svg") center/cover;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 2rem;
+}

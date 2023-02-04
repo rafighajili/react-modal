@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.app button {
+  align-self: center;
+}
+
+button {
+  position: relative;
+  outline: none;
+  border: none;
+  background-color: hsl(213, 30%, 32%);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 500;
+  overflow: hidden;
+}
+
+button:hover {
+  background-color: hsl(213, 30%, 28%);
+}
+
+button:active {
+  background-color: hsl(213, 30%, 24%);
+}
